@@ -28,7 +28,7 @@ public class CargadorDatosIniciales implements CommandLineRunner {
         }
 
         productoRepositorio.saveAll(List.of(
-            crearProducto("GA001", "Guitarra Acústica Folk", "Yamaha", "F310", "Guitarras Acústicas",
+            crearProducto("GA001", "GUITARRA BACKEND PRUEBA", "Yamaha", "F310", "Guitarras Acústicas",
                 129990, 8, 2, "Tapa de abeto, aros y fondo de meranti. Ideal para principiantes.",
                 "/img/productos/ga001.jpg"),
             crearProducto("GE001", "Guitarra Eléctrica Stratocaster", "Squier", "Affinity Strat", "Guitarras Eléctricas",
